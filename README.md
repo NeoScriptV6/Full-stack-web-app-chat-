@@ -9,9 +9,7 @@ Match-Me is a full-stack web application designed to connect gamers based on the
 ## 📦 Postman Collection
 
 You can import this collection into Postman for easier testing. Go ROOT
-
-<details>
-<summary>The Postman collection is in the root of the project</summary>
+The Postman collection is in the root of the project
 
 
 
