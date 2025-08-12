@@ -1,0 +1,15 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.matchme</groupId>
+    <artifactId>API</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>matchme</module>
+    </modules>
+</project>
+
+<!-- This file will make it a Maven multi-module project. Main thing this does, is eliminating the "not a part of the project"
+ errors(in vscode) that comes with the imports, since im not opening the project in the springboot root -->

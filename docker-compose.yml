@@ -1,0 +1,12 @@
+services:
+  db:
+    image: postgres:16
+    ports:
+      - "5433:5432"  
+    environment:
+      POSTGRES_USER: matchme_user
+      POSTGRES_PASSWORD: yourpassword
+      POSTGRES_DB: matchme
+
+volumes:
+  pgdata:
